@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Контакты</title>
+</head>
+<body>
+    <link rel="stylesheet" href="styles.css">
+    <h1>Мои Контакты</h1>
+    <hr>
+    <p>Телефон: 
+        <a href="tel:+37256672990">11111111</a>
+
+    </p>
+    <p>
+        Mail@gmail.com
+    </p>
+
+
+<form action="mailto: example@example.com" method="POST">
+
+    <h3>Ваши данные для связи со мной:</h3>
+    <h4>
+        <label for="fname">Ваше Имя:</label><br>
+            <input type="text" placeholder="Иван" id="fname" name="fname"><br>
+        <label for="lname">Ваша Фамилия:</label><br>
+            <input type="text" placeholder="Петров" id="lname" name="lname">
+        <br><label for="birthdate">День рождения:</label><br>
+            <input type="number" placeholder="29.08.2000" id="birthdate" name="birthdate">
+        <br><label for="tel">Номер телефона:</label><br>
+            <input type="number" placeholder="+37212341234" id="tel" name="tel">
+            
+           <br> <textarea placeholder="Комментарий" name="Комментарий" id="text" cols="30" rows="10"></textarea>
+        <br><input type="submit">
+        <legend>Получать рассылку</legend>
+        <br><input type="radio" name="d1"><label>Cогласен</label>
+        <br><input type="radio" name="d1"><label>Не Cогласен</label>
+
+        </h4>
+
+</form>
+
+
+</body>
+</html>
